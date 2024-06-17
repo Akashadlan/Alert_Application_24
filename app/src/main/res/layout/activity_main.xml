@@ -32,6 +32,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/enterNumber"
         android:inputType="number"
+        android:focusable="true"
         android:gravity="center"
         android:textSize="20sp"/>
     <Button

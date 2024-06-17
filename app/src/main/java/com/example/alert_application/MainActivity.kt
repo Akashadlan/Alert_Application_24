@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this, "negitive Clicked", Toast.LENGTH_LONG).show()
                 }
                 alertDialog.setNeutralButton("reset") { _, _ ->
+                    binding?.etnumber?.setText((number-number).toString())
                     Toast.makeText(this, "Neutral Clicked", Toast.LENGTH_LONG).show()
                 }
                 alertDialog.show()
