@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
                 alertDialog.setTitle("Edit the your number")
                 alertDialog.setMessage("add ${binding?.etnumber?.text}")
                 alertDialog.setCancelable(false)
-
                 alertDialog.setPositiveButton("add") { _, _ ->
                     binding?.etnumber?.setText((number+number).toString())
                     Toast.makeText(this, "Positive Clicked", Toast.LENGTH_LONG).show()
